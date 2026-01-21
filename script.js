@@ -11,6 +11,34 @@ document.addEventListener("DOMContentLoaded", () => {
                 { image: "banhmy/3.png" },
                 { image: "banhmy/4.png" },
                 { image: "banhmy/5.png" },
+                { image: "banhmy/6.png" },
+                { image: "banhmy/7.png" },
+                { image: "banhmy/8.png" },
+                { image: "banhmy/9.png" },
+                { image: "banhmy/10.png" },
+                { image: "banhmy/11.png" },
+                { image: "banhmy/12.png" },
+                { image: "banhmy/13.png" },
+                { image: "banhmy/14.png" },
+                { image: "banhmy/15.png" },
+                { image: "banhmy/16.png" },
+                { image: "banhmy/17.png" },
+                { image: "banhmy/18.png" },
+                { image: "banhmy/19.png" },
+                { image: "banhmy/20.png" },
+                { image: "banhmy/21.png" },
+                { image: "banhmy/22.png" },
+                { image: "banhmy/23.png" },
+                { image: "banhmy/24.png" },
+                { image: "banhmy/25.png" },
+                { image: "banhmy/26.png" },
+                { image: "banhmy/27.png" },
+                { image: "banhmy/28.png" },
+                { image: "banhmy/29.png" },
+                { image: "banhmy/30.png" },
+                { image: "banhmy/31.png" },
+                { image: "banhmy/32.png" },
+
             ],
             "BÔNG LAN": [
                 { image: "bonglan/1.png" },
@@ -281,19 +309,46 @@ document.addEventListener("DOMContentLoaded", () => {
     /* =====================
        SIDEBAR
     ===================== */
+    //     const sidebar = document.getElementById("category-menu");
+
+    //     if (sidebar) {
+    //         Object.entries(menuData).forEach(([country, types]) => {
+
+    //             const countryLi = document.createElement("li");
+    //             countryLi.textContent = country;
+    //             sidebar.appendChild(countryLi);
+
+    //             Object.keys(types).forEach(type => {
+    //                 const sub = document.createElement("li");
+    //                 sub.textContent = "– " + type;
+    //                 sub.style.paddingLeft = "16px";
+
+    //                 sub.onclick = () => {
+    //                     location.href = `category.html?country=${encodeURIComponent(country)}&type=${encodeURIComponent(type)}`;
+    //                 };
+
+    //                 sidebar.appendChild(sub);
+    //             });
+    //         });
+    //     }
+
+    // });
     const sidebar = document.getElementById("category-menu");
 
     if (sidebar) {
         Object.entries(menuData).forEach(([country, types]) => {
 
+            // MỤC CHA
             const countryLi = document.createElement("li");
             countryLi.textContent = country;
+            countryLi.classList.add("menu-parent");
             sidebar.appendChild(countryLi);
 
+            // MỤC CON
             Object.keys(types).forEach(type => {
                 const sub = document.createElement("li");
-                sub.textContent = "– " + type;
-                sub.style.paddingLeft = "16px";
+                sub.textContent = type;
+                sub.classList.add("menu-child");
 
                 sub.onclick = () => {
                     location.href = `category.html?country=${encodeURIComponent(country)}&type=${encodeURIComponent(type)}`;
@@ -303,5 +358,4 @@ document.addEventListener("DOMContentLoaded", () => {
             });
         });
     }
-
 });
