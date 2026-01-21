@@ -5,39 +5,27 @@ document.addEventListener("DOMContentLoaded", () => {
     ===================== */
     const menuData = {
         "BAGUETTE": {
-            "BÁNH MỲ": [
+            "BÁNH Mì": [
                 { image: "banhmy/1.png" },
                 { image: "banhmy/2.png" },
                 { image: "banhmy/3.png" },
                 { image: "banhmy/4.png" },
                 { image: "banhmy/5.png" },
-                { image: "banhmy/6.png" }
             ],
             "BÔNG LAN": [
                 { image: "bonglan/1.png" },
-                { image: "bonglan/2.png" },
-                { image: "bonglan/3.png" },
-                { image: "bonglan/4.png" },
-                { image: "bonglan/5.png" },
-                { image: "bonglan/6.png" },
-                { image: "bonglan/7.png" },
-                { image: "bonglan/8.png" }
+
             ],
             "BÁNH MẶN": [
                 { image: "banhman/1.png" },
-                { image: "banhman/2.png" },
                 { image: "banhman/3.png" },
                 { image: "banhman/4.png" },
-                { image: "banhman/5.png" },
                 { image: "banhman/6.png" },
             ],
             "BÁNH TRÒN": [
                 { image: "banhtron/1.png" },
                 { image: "banhtron/2.png" },
-                { image: "banhtron/3.png" },
-                { image: "banhtron/4.png" },
                 { image: "banhtron/5.png" },
-                { image: "banhtron/6.png" },
                 { image: "banhtron/7.png" },
                 { image: "banhtron/8.png" }
             ]
@@ -47,38 +35,18 @@ document.addEventListener("DOMContentLoaded", () => {
                 { image: "donut/1.png" },
                 { image: "donut/2.png" },
                 { image: "donut/3.png" },
-                { image: "donut/4.png" },
                 { image: "donut/5.png" },
                 { image: "donut/6.png" },
             ],
-            "DONUT 2": [
-                { image: "donut2/1.png" },
-                { image: "donut2/2.png" },
-                { image: "donut2/3.png" },
-                { image: "donut2/4.png" },
-                { image: "donut2/5.png" },
-                { image: "donut2/6.png" },
-            ],
+
             "CROISSANT": [
                 { image: "croissant/1.png" },
-                { image: "croissant/2.png" },
-                { image: "croissant/3.png" },
-                { image: "croissant/4.png" },
+
                 { image: "croissant/5.png" },
                 { image: "croissant/6.png" },
-                { image: "croissant/7.png" },
                 { image: "croissant/8.png" }
             ],
-            "PASTRY - BÁNH KHÁC": [
-                { image: "pastry/1.png" },
-                { image: "pastry/2.png" },
-                { image: "pastry/3.png" },
-                { image: "pastry/4.png" },
-                { image: "pastry/5.png" },
-                { image: "pastry/6.png" },
-                { image: "pastry/7.png" },
-                { image: "pastry/8.png" }
-            ],
+
             "CRUFFIN MUFFIN": [
 
             ],
@@ -92,7 +60,6 @@ document.addEventListener("DOMContentLoaded", () => {
                 { image: "shushi/5.png" },
                 { image: "shushi/6.png" },
                 { image: "shushi/7.png" },
-                { image: "shushi/8.png" }
             ],
             "BÁNH BAO - BÁNH XÈO": [
                 { image: "banhbaoxeo/1.png" },
@@ -100,36 +67,89 @@ document.addEventListener("DOMContentLoaded", () => {
                 { image: "banhbaoxeo/3.png" },
                 { image: "banhbaoxeo/4.png" },
                 { image: "banhbaoxeo/5.png" },
-                { image: "banhbaoxeo/6.png" }
-            ],
-        },
-        "BÚN": {
-            "BÚN": [
-                { image: "bun/1.png" },
-                { image: "bun/2.png" },
-                { image: "bun/3.png" },
-                { image: "bun/4.png" },
-                { image: "bun/5.png" },
-                { image: "bun/6.png" }
-            ],
-            "PHỞ - HỦ TIẾU NUI": [
-                { image: "phohutieu/1.png" },
-                { image: "phohutieu/2.png" },
-                { image: "phohutieu/3.png" },
-                { image: "phohutieu/4.png" },
-                { image: "phohutieu/5.png" },
-                { image: "phohutieu/6.png" }
-            ],
-            "MỲ - HỦ TIẾU KHÔ": [
-                { image: "mihutieukho/1.png" },
-                { image: "mihutieukho/2.png" },
-                { image: "mihutieukho/3.png" },
-                { image: "mihutieukho/4.png" },
-                { image: "mihutieukho/5.png" },
-                { image: "mihutieukho/6.png" }
-            ]
-        },
 
+
+            ],
+        },
+        "FACTORY": {
+            "COFFEE": [
+                { image: "coffee/1.png" },
+                { image: "coffee/2.png" },
+                { image: "coffee/3.png" },
+                { image: "coffee/4.png" },
+                { image: "coffee/5.png" },
+                { image: "coffee/6.png" },
+                { image: "coffee/7.png" },
+                { image: "coffee/8.png" },
+                { image: "coffee/9.png" },
+                { image: "coffee/10.png" },
+            ],
+            "TRÀ SỮA": [
+                { image: "trasua/1.png" },
+                { image: "trasua/2.png" },
+                { image: "trasua/3.png" },
+
+            ],
+            "TRÀ": [
+                { image: "tra/1.png" },
+                { image: "tra/2.png" },
+                { image: "tra/3.png" },
+                { image: "tra/4.png" },
+
+            ],
+            "TOPPING": [
+                { image: "topping/1.png" },
+                { image: "topping/2.png" },
+                { image: "topping/3.png" },
+
+            ],
+        },
+        "SAFFRON": {
+            "TÀU HỦ": [
+                { image: "tauhu/1.png" },
+                { image: "tauhu/2.png" },
+                { image: "tauhu/3.png" },
+
+            ],
+            "TRÀ - SAFFARON": [
+                { image: "trasaffron/1.png" },
+                { image: "trasaffron/2.png" },
+                { image: "trasaffron/3.png" },
+                { image: "trasaffron/4.png" },
+                { image: "trasaffron/5.png" },
+                { image: "trasaffron/6.png" },
+                { image: "trasaffron/7.png" },
+                { image: "trasaffron/8.png" },
+                { image: "trasaffron/9.png" },
+                { image: "trasaffron/10.png" },
+                { image: "trasaffron/11.png" },
+                { image: "trasaffron/12.png" },
+                { image: "trasaffron/13.png" },
+                { image: "trasaffron/14.png" },
+                { image: "trasaffron/15.png" },
+
+            ],
+            "CAFE-SAFFRON": [
+                { image: "cafesaffron/1.png" },
+                { image: "cafesaffron/2.png" },
+                { image: "cafesaffron/3.png" },
+                { image: "cafesaffron/4.png" },
+
+            ],
+            "SNACK": [
+                { image: "snack/1.png" },
+                { image: "snack/2.png" },
+                { image: "snack/3.png" },
+                { image: "snack/4.png" },
+                { image: "snack/5.png" },
+                { image: "snack/6.png" },
+                { image: "snack/7.png" },
+                { image: "snack/8.png" },
+                { image: "snack/9.png" },
+
+            ],
+
+        },
         "KEM MONTE": {
             "MONTE ": [
                 { image: "monte/1.png" },
@@ -137,7 +157,9 @@ document.addEventListener("DOMContentLoaded", () => {
                 { image: "monte/3.png" },
                 { image: "monte/4.png" },
                 { image: "monte/5.png" },
-                { image: "monte/6.png" }
+                { image: "monte/6.png" },
+                { image: "monte/7.png" },
+
             ],
             "MONTE 2": [
                 { image: "monte2/1.png" },
@@ -154,15 +176,27 @@ document.addEventListener("DOMContentLoaded", () => {
                 { image: "pizza/2.png" },
                 { image: "pizza/3.png" },
                 { image: "pizza/4.png" },
-                { image: "pizza/5.png" },
                 { image: "pizza/6.png" },
                 { image: "pizza/7.png" },
-                { image: "pizza/8.png" }
+                { image: "pizza/8.png" },
+                { image: "pizza/9.png" },
+                { image: "pizza/10.png" },
+                { image: "pizza/11.png" },
+                { image: "pizza/12.png" },
+                { image: "pizza/13.png" },
+                { image: "pizza/14.png" },
+                { image: "pizza/15.png" },
+                { image: "pizza/16.png" },
+                { image: "pizza/17.png" },
+                { image: "pizza/18.png" },
+                { image: "pizza/19.png" },
+                { image: "pizza/20.png" },
+
+
             ],
             "PIZZA 25CM, PIZZA 1/2": [
                 { image: "pizza2/1.png" },
                 { image: "pizza2/2.png" },
-                { image: "pizza2/3.png" },
                 { image: "pizza2/4.png" },
                 { image: "pizza2/5.png" },
                 { image: "pizza2/6.png" },
@@ -173,7 +207,6 @@ document.addEventListener("DOMContentLoaded", () => {
                 { image: "pizza3/1.png" },
                 { image: "pizza3/2.png" },
                 { image: "pizza3/3.png" },
-                { image: "pizza3/4.png" },
                 { image: "pizza3/5.png" },
                 { image: "pizza3/6.png" },
                 { image: "pizza3/7.png" },
@@ -184,10 +217,10 @@ document.addEventListener("DOMContentLoaded", () => {
                 { image: "hotdog/2.png" },
                 { image: "hotdog/3.png" },
                 { image: "hotdog/4.png" },
-                { image: "hotdog/5.png" },
-                { image: "hotdog/6.png" },
-                { image: "hotdog/7.png" },
-                { image: "hotdog/8.png" }
+                { image: "hotdog/8.png" },
+                { image: "hotdog/9.png" },
+                { image: "hotdog/10.png" },
+
             ],
         }
     };
