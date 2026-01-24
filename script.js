@@ -38,6 +38,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 { image: "banhmy/30.png" },
                 { image: "banhmy/31.png" },
                 { image: "banhmy/32.png" },
+                { image: "banhmy/33.png" },
+                { image: "banhmy/34.png" },
 
             ],
             "BÔNG LAN": [
@@ -75,9 +77,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 { image: "croissant/8.png" }
             ],
 
-            "CRUFFIN MUFFIN": [
 
-            ],
         },
         "SUSHI": {
             "SHUSHI 1": [
@@ -95,7 +95,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 { image: "banhbaoxeo/3.png" },
                 { image: "banhbaoxeo/4.png" },
                 { image: "banhbaoxeo/5.png" },
-
+                { image: "banhbaoxeo/6.png" },
+                { image: "banhbaoxeo/7.png" },
 
             ],
         },
@@ -246,8 +247,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 { image: "hotdog/3.png" },
                 { image: "hotdog/4.png" },
                 { image: "hotdog/8.png" },
-                { image: "hotdog/9.png" },
-                { image: "hotdog/10.png" },
+
 
             ],
         }
