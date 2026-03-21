@@ -359,3 +359,15 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 });
+const PASSWORD = "123456";
+
+if (!sessionStorage.getItem("login")) {
+    const input = prompt("Nhập mật khẩu:");
+
+    if (input === PASSWORD) {
+        sessionStorage.setItem("login", "true");
+    } else {
+        alert("Sai mật khẩu!");
+        document.body.innerHTML = "";
+    }
+}
