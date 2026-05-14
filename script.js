@@ -359,7 +359,7 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 });
-const PASSWORD = "15082003";
+const PASSWORD = "11223344";
 
 if (!sessionStorage.getItem("login")) {
     const input = prompt("Nhập mật khẩu:");
